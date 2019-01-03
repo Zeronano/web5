@@ -1,0 +1,86 @@
+*{
+		  margin: 0;
+		  padding: 0;
+		}
+		body{
+		  background-color: white;
+		  background-size: cover;
+		}
+		.container {
+		  background-image: black;
+		  background-repeat: no-repeat;
+		  background-size: cover;
+		}
+		header {
+		  background-color: blue;
+		  height: 150px;
+		  line-height: 150px;
+		  padding-left: 15px;
+		  box-shadow: 5px 5px 10px #333;
+		  border-radius;50px;
+		  z-index: 999;
+		}
+		header h1 a {
+		  text-decoration: none;
+		  color: white;
+		}
+		nav {
+		  background-color: rgba(211,211,211,0.85);
+		  min-height: 700px;
+		  width: 20%;
+		  float: left;
+		  padding: 5px;
+		  padding-top: 20px;
+		  text-align: center;
+		  box-sizing: border-box;
+		  border-radius:10px;
+		  z-index: 10;
+		}
+		nav a, nav ul li {
+		  list-style: none;
+		  text-decoration: none;
+		  padding: 10px;
+		  font-size: 14pt;
+		  color: black;
+		}
+		nav a:hover {
+		  color: white;
+		}
+		nav a:active {
+		  color: black;
+		}
+		article {
+		  width: 78%;
+		  float: right;
+		  min-height: 500px;
+		  box-sizing: border-box;
+		}
+		.artikel {
+		  margin: 20px;
+		  margin-top: 50px;
+		  padding: 30px;
+		  border: 1px solid lightgrey;
+		  border-radius: 10px;
+		  background-color: rgba(211,211,211,0.85);
+		  text-align: justify;
+
+		}
+		.tabel tr th{
+			text-align: center;
+			line-height: 40px;
+			min-height: 40px;
+		}
+		.tabel tr td{
+			text-align: center;
+			line-height: 30px;
+			min-height: 30px;
+		}
+		footer, footer a {	
+		  min-height: 45px;
+		  background-color: blue;
+		  color: white;
+		  clear: both;
+		  text-align: center;
+		  text-decoration: none;
+		  line-height: 45px;
+		}
